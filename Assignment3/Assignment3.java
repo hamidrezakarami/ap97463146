@@ -45,8 +45,5 @@ public class Assignment3 {
                 System.out.printf("%4d",m[h][j]);
             }
         }
-
     }
-
-
 }
