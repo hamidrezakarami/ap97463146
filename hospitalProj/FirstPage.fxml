@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="395.0" prefWidth="299.0" xmlns="http://javafx.com/javafx/8.0.162" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FirstPageController">
+   <children>
+      <Button layoutX="61.0" layoutY="134.0" mnemonicParsing="false" onAction="#AddPatientFX" prefHeight="60.0" prefWidth="149.0" text="Add Patient">
+         <font>
+            <Font size="22.0" />
+         </font></Button>
+      <Button layoutX="61.0" layoutY="206.0" mnemonicParsing="false" onAction="#payFx" prefHeight="60.0" prefWidth="149.0" text="Pay" textAlignment="CENTER">
+         <font>
+            <Font size="27.0" />
+         </font></Button>
+      <Button fx:id="btm" layoutX="169.0" layoutY="317.0" mnemonicParsing="false" onAction="#backbtn" text="Back" />
+      <Button fx:id="btn" layoutX="61.0" layoutY="60.0" mnemonicParsing="false" onAction="#viewPatientListFx" prefHeight="60.0" prefWidth="149.0" text="View Patient List">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="btn" onDragDetected="#backbtn" prefHeight="400.0" prefWidth="462.0" xmlns="http://javafx.com/javafx/8.0.162" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AddPersonnelController">
+   <children>
+      <Button layoutX="344.0" layoutY="317.0" mnemonicParsing="false" onAction="#backbtn" text="Back" />
+      <ComboBox fx:id="typeOfPersonnel" layoutX="203.0" layoutY="34.0" prefHeight="31.0" prefWidth="182.0" promptText="Type Of Personnel" />
+      <TextField fx:id="getName" focusTraversable="false" layoutX="24.0" layoutY="25.0" prefHeight="25.0" prefWidth="149.0" promptText="Name" />
+      <TextField fx:id="getFamily" focusTraversable="false" layoutX="24.0" layoutY="65.0" promptText="Family Name" />
+      <TextField fx:id="getAddress" focusTraversable="false" layoutX="24.0" layoutY="144.0" prefHeight="87.0" prefWidth="187.0" promptText="Address" />
+      <TextField fx:id="getID" focusTraversable="false" layoutX="24.0" layoutY="103.0" promptText="ID" />
+      <Button layoutX="24.0" layoutY="259.0" mnemonicParsing="false" onAction="#savebtn" prefHeight="38.0" prefWidth="53.0" text="Save" />
+      <Label fx:id="resultLbl" layoutX="81.0" layoutY="259.0" prefHeight="38.0" prefWidth="203.0" />
+   </children>
+</AnchorPane>

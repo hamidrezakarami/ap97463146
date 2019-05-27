@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="290.0" prefWidth="440.0" xmlns="http://javafx.com/javafx/8.0.162" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AddPageController">
+    <children>
+        <TextField fx:id="getNameForAddFx" focusTraversable="false" layoutX="24.0" layoutY="44.0" prefHeight="31.0" prefWidth="187.0" promptText="Name " />
+        <TextField fx:id="getFnameForAddFx" focusTraversable="false" layoutX="24.0" layoutY="88.0" promptText="Family Name " />
+        <TextField fx:id="getIdForAddFx" focusTraversable="false" layoutX="24.0" layoutY="131.0" promptText="ID" />
+        <Button focusTraversable="false" layoutX="24.0" layoutY="185.0" mnemonicParsing="false" onAction="#saveBtnFx" prefHeight="45.0" prefWidth="79.0" text="Save" />
+      <ComboBox fx:id="typeOfRoom" layoutX="221.0" layoutY="44.0" onAction="#refresh" prefWidth="150.0" promptText="Type Of Room" />
+      <ComboBox fx:id="numOfRoom" layoutX="221.0" layoutY="76.0" prefWidth="150.0" promptText="Number Of Room" />
+      <Label fx:id="resultLbl" layoutX="120.0" layoutY="185.0" prefHeight="45.0" prefWidth="309.0" />
+      <Button fx:id="btn" layoutX="327.0" layoutY="240.0" mnemonicParsing="false" onAction="#backbtn" text="Back " />
+    </children>
+</AnchorPane>

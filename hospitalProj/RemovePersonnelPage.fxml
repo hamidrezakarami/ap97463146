@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="365.0" xmlns="http://javafx.com/javafx/8.0.162" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RemovePersonnelPageController">
+   <children>
+      <ComboBox fx:id="typeOfPersonnel" layoutX="71.0" layoutY="29.0" prefWidth="150.0" promptText="Type Of Personnel" />
+      <TextField fx:id="getid" layoutX="72.0" layoutY="66.0" promptText="ID" />
+      <Button layoutX="72.0" layoutY="156.0" mnemonicParsing="false" onAction="#removebtn" prefHeight="36.0" prefWidth="59.0" text="Remove" />
+      <Label fx:id="resultlbl" layoutX="139.0" layoutY="156.0" prefHeight="36.0" prefWidth="164.0" />
+      <Label fx:id="resultSerchlbl" layoutX="20.0" layoutY="110.0" prefHeight="46.0" prefWidth="291.0" />
+      <Button fx:id="btn" layoutX="270.0" layoutY="272.0" mnemonicParsing="false" onAction="#Backbtn" text="Back" />
+      <Button layoutX="256.0" layoutY="66.0" mnemonicParsing="false" onAction="#searchbtn" text="Search" />
+   </children>
+</AnchorPane>
