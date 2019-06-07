@@ -31,6 +31,7 @@ public class Main {
             System.out.println("Search ...");
             String search = sc.next();
             if(map.containsKey(search)){
+                System.out.println("You Search This Before...");
                 System.out.println(map.get(search));
                 mapfound = true;
                 isfind = true;
