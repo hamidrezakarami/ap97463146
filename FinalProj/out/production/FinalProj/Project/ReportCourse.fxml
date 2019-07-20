@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="269.0" prefWidth="510.0" xmlns="http://javafx.com/javafx/8.0.162" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project.ReportCourseController">
+   <children>
+      <Button fx:id="btn" layoutX="455.0" layoutY="224.0" mnemonicParsing="false" onAction="#backBtn" text="Back" />
+      <ListView fx:id="courseList" layoutX="14.0" layoutY="41.0" prefHeight="214.0" prefWidth="301.0" />
+      <TextField fx:id="getIdForSearch" layoutX="333.0" layoutY="44.0" prefHeight="31.0" prefWidth="149.0" promptText="Enter ID" />
+      <Label layoutX="336.0" layoutY="14.0" text="Course ID :" />
+      <Button layoutX="336.0" layoutY="94.0" mnemonicParsing="false" onAction="#showCourseBtn" text="Show This Course" />
+      <Label fx:id="resulrLbl" layoutX="336.0" layoutY="134.0" prefHeight="31.0" prefWidth="160.0" />
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="17.0" prefWidth="301.0" text="Courseid    Name      ClassNumber   Teacher Name" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="btn" prefHeight="639.0" prefWidth="634.0" xmlns="http://javafx.com/javafx/8.0.162" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project.StudentPageController">
+   <children>
+      <ListView fx:id="allCourseList" layoutX="14.0" layoutY="118.0" prefHeight="341.0" prefWidth="274.0" />
+      <ListView fx:id="myCourseList" layoutX="346.0" layoutY="118.0" prefHeight="341.0" prefWidth="274.0" />
+      <Label layoutX="121.0" layoutY="92.0" text="All Courses" />
+      <Label layoutX="446.0" layoutY="92.0" text="My Courses" />
+      <Label fx:id="studentName" layoutX="14.0" layoutY="14.0" prefHeight="26.0" prefWidth="136.0">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Label>
+      <Label fx:id="StudentId" layoutX="14.0" layoutY="44.0" prefHeight="26.0" prefWidth="136.0">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Label>
+      <Label layoutX="68.0" layoutY="500.0" prefHeight="26.0" prefWidth="62.0" text="Course ID :" />
+      <TextField fx:id="getCourseId" layoutX="150.0" layoutY="501.0" promptText="Enter Course ID" />
+      <Button layoutX="68.0" layoutY="556.0" mnemonicParsing="false" onAction="#addCourseBtn" text="Add Course" />
+      <Button layoutX="170.0" layoutY="556.0" mnemonicParsing="false" onAction="#removeCourseBtn" text="Remove Course" />
+      <Button layoutX="528.0" layoutY="596.0" mnemonicParsing="false" onAction="#backToMenuBtn" text="Back To Menu" />
+      <Label fx:id="resultLbl" layoutX="317.0" layoutY="501.0" prefHeight="26.0" prefWidth="301.0" />
+   </children>
+</AnchorPane>

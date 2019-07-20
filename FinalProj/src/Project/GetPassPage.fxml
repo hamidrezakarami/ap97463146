@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="218.0" prefWidth="340.0" xmlns="http://javafx.com/javafx/8.0.162" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project.GetPassPageController">
+   <children>
+      <Button layoutX="258.0" layoutY="82.0" mnemonicParsing="false" onAction="#enterBtn" prefHeight="25.0" prefWidth="65.0" text="Enter" />
+      <Button fx:id="btn" layoutX="258.0" layoutY="121.0" mnemonicParsing="false" onAction="#exitBtn" prefHeight="25.0" prefWidth="65.0" text="Exit" />
+      <Label layoutX="10.0" layoutY="86.0" text="User Name :" />
+      <Label layoutX="15.0" layoutY="125.0" text="Password :" />
+      <TextField fx:id="getUseName" layoutX="92.0" layoutY="82.0" promptText="Enter User Name" />
+      <TextField fx:id="getPassword" layoutX="92.0" layoutY="121.0" promptText="Enter Password" />
+      <Label fx:id="titleLbl" layoutX="134.0" layoutY="2.0" prefHeight="27.0" prefWidth="98.0" text="WELCOME">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font></Label>
+      <Label fx:id="resultLbl" layoutX="16.0" layoutY="168.0" prefHeight="25.0" prefWidth="304.0" />
+      <ComboBox fx:id="logInAsCombo" layoutX="108.0" layoutY="41.0" prefWidth="150.0" promptText="Log In As" />
+   </children>
+</AnchorPane>
